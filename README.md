@@ -1,14 +1,21 @@
 Assignment 2 – Uncovering Marketing insights
+
+
 Goal : Working with Datasets  using Pandas, xsv(xcsv) and Trifacta tools.
+
 Aim:• To be able to analyze marketing data using Salesforce Einstein analytics studio
 • Derive insights from the datasets
 • Answer some of the findings
+
+
 
 Themes considered in the dashboard are:
 • Pricing
 • Promotion
 • Search
 • Recommendations
+
+
 
 Analysis performed on the datasets are:
 • Joining the datasets.
@@ -17,6 +24,8 @@ Analysis performed on the datasets are:
 • Handling missing values
 • Deriving additional columns from existing datasets
 • Cleaning (By removing blank spaces, formatting dates)
+
+
 
 Analysis performed on the Dashboard are:
 • Identified columns , measures and dimensions
