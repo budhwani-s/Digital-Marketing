@@ -15,3 +15,4 @@ Working with Datasets using Pandas, xsv(xcsv) and Trifacta tools.
 ## Analysis performed on the Dashboard are:
 • Identified columns , measures and dimensions • Analyzed who can potentially use the dashboard • Answered What value would generate using this dashboard
  
+## https://docs.google.com/document/d/16jM80sAQFI7ogUT0lZDNpkvFkd5tgdYC7dn8yXlkE4E/edit# - Document
