@@ -20,5 +20,5 @@ Analysis performed on the datasets are:
 
 Analysis performed on the Dashboard are:
 • Identified columns , measures and dimensions
-• Analysed who can potentially use the dashboard
+• Analyzed who can potentially use the dashboard
 • Answered What value would generate using this dashboard
