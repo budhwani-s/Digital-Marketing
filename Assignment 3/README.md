@@ -15,8 +15,8 @@ journey
 # Themes considered in the dashboard are:
 LTA , UTA , Regression,Time Decay , U Shape and Simulation
 
-Analysis performed on the datasets are:
-#  Joining the datasets. • Filtering • Aggregation • Handling missing values • Deriving additional columns from existing datasets • Cleaning 
+# Analysis performed on the datasets are:
+Joining the datasets. • Filtering • Aggregation • Handling missing values • Deriving additional columns from existing datasets • Cleaning 
 
 # Analysis performed on the Dashboard are:
 • Predicting the findings on the dashboard for each algorithm and analyzing the best one.
