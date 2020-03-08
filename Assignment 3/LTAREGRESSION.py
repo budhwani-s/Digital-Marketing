@@ -55,14 +55,7 @@ column = st.selectbox("What column do you want to display?",df0.columns)
 st.title('Last Touch Attribution')
 st.text('Streamlit showing Last Touch Attribution')
 
-
-
-
 n_campaigns = 30
-
-
-
-
 
 def add_derived_columns(df):
     df_ext = df.copy()
@@ -76,11 +69,6 @@ def add_derived_columns(df):
     return df_ext
 df1 = add_derived_columns(df0)
 
-
-
-# In[ ]:
-
-
 df1.head()
 
 
@@ -92,15 +80,6 @@ def sample_campaigns(df, n_campaigns):
     return df[ df['campaign'].isin(campaigns) ]
 df2 = sample_campaigns(df1, n_campaigns)
 
-
-
-
-
-#np = pd.read_csv(criteo_attribution_dataset.tsv.gz, sep='\t', compression='gzip')option = st.selectbox(
-    #'Which category?',
-   #  df['Category'].unique())'You selected: ', option
-
-
 df0.head()
 
 def filter_journeys_by_length(df, min_touchpoints):
@@ -110,10 +89,6 @@ def filter_journeys_by_length(df, min_touchpoints):
         grouped = df.groupby(['jid'])['uid'].count().reset_index(name="count")
         return df[df['jid'].isin( grouped[grouped['count'] >= min_touchpoints]['jid'].values )]
 df3 = filter_journeys_by_length(df2, 2)
-
-
-# In[ ]:
-
 
 def balance_conversions(df):
     df_minority = df[df.conversion == 1]
