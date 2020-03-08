@@ -79,10 +79,6 @@ def sample_campaigns(df, n_campaigns):
     return df[ df['campaign'].isin(campaigns) ]
 df2 = sample_campaigns(df1, n_campaigns)
 
-
-# In[7]:
-
-
 def filter_journeys_by_length(df, min_touchpoints):
     if min_touchpoints <= 1:
         return df
