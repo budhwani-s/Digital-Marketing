@@ -22,3 +22,5 @@ Joining the datasets. • Filtering • Aggregation • Handling missing values 
 • Predicting the findings on the dashboard for each algorithm and analyzing the best one.
 
 https://docs.google.com/document/d/19E9etMeTzeOcD7B1vpuamQ02_3UcApiIx11UNjrBweY/edit# - Document
+
+https://colab.research.google.com/drive/1aP-Ow0AJtTtdtOOEGBOsUm8Rf0BTh2Vu - Google Colab document
