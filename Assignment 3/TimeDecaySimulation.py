@@ -49,19 +49,10 @@ elif add_selectbox == "Run the app":
        
 
         run_the_app()
-
-    
-   
-
-
 column = st.selectbox("What column do you want to display?",df0.columns)
 
 
-
-# In[4]:
-
-
-n_campaigns = 5
+n_campaigns = 50
 
 
 # In[5]:
@@ -255,19 +246,21 @@ def simulate_budget_roi(df, budget_total, attribution, verbose=False):
     return len(conversions.difference(blacklist))
 
 
-# In[2]:
-
-
 pitches = [0.1, 0.25, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0]
 attributions = [fta, lta, uta,tdta]
 for i, pitch in enumerate(pitches):
     for j, attribution in enumerate(attributions):
         reward = simulate_budget_roi(df6, 10000, attribution**pitch)
         print('{} {} : {}'.format(i, j, reward))
-
-
-# In[ ]:
-
+         
+plt.plot(pitches,fta.tolist(),color='darkcyan', label='FTA' )
+plt.plot(pitches,lita.tolist(),color='darkorchid', label='Linear TA' )
+plt.plot(pitches,uta.tolist(),color='hotpink', label='UTA' )
+plt.plot(pitches,tdta.tolist(),color='navajowhite', label='Timedecay TA' )
+plt.xlabel('Pitches')
+plt.ylabel('Revenue per impression')
+plt.legend(loc='upper left')
+plt.show()
 
 
 
