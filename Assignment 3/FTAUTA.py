@@ -48,10 +48,6 @@ elif add_selectbox == "Run the app":
 
         run_the_app()
 
-    
-   
-
-
 column = st.selectbox("What column do you want to display?",df0.columns)
 
 
