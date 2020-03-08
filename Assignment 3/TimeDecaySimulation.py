@@ -261,6 +261,3 @@ plt.xlabel('Pitches')
 plt.ylabel('Revenue per impression')
 plt.legend(loc='upper left')
 plt.show()
-
-
-
