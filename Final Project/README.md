@@ -32,11 +32,11 @@ https://datastudio.google.com/embed/reporting/fc8ababd-4001-4f5e-a8a4-46f78809c5
 ## Web Application Navigation
 
 Homepage consists of:
-## About Us
-## Top Customer Analytics
-## Popular Recommendation
-## Item Recommendation
-## CLV
+### About Us
+### Top Customer Analytics
+### Popular Recommendation
+### Item Recommendation
+### CLV
 Click on the About Us tab to know more about the project.
 Click on Popular Recommendation:
 Select a user id from the drop down box
