@@ -45,4 +45,4 @@ Click on Recommend which displays a list of recommended items with respective It
 Click on Item Recommendation:
 Select a user id from the drop down box
 Click on Recommend which displays a list of recommended items with respective Item IDs.
-Click on Top Customer Analytics and Bottom Customer Analytics :to view the analytics of customers.
+Click on Top Customer Analytics and Bottom Customer Analytics :to view the analytics of customer.
