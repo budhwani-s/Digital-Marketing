@@ -1,6 +1,6 @@
 # Customer Insights 360
 
-A web application to implement customer recommendations and showcase email and recommendation analytics.
+A web application to implement customer lifetime value, customer segmentation and showcase recommendation analytics to customers based on popularity and collaberative filltering.
 
 ## Project Proposal
 
