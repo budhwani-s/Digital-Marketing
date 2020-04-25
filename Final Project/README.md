@@ -14,7 +14,7 @@ https://codelabs-preview.appspot.com/?file_id=1h8pehW_RPmp6G7lDBNjCtYGLaohVB494k
 ## Web App URL
 
 https://ci360finalproject.herokuapp.com/ - Updated Heroku Deployed Web App Link
-
+Navigation defines below.
 
 
 ## Dashboards
@@ -26,24 +26,27 @@ https://datastudio.google.com/embed/reporting/22aca823-2cb4-4254-ae17-50cc90f123
 https://datastudio.google.com/embed/reporting/fc8ababd-4001-4f5e-a8a4-46f78809c55f/page/1M
 
 
-## Note
-
-### Through the Anaconda CMD enter the folder where you saved the project and run the python file which is app.py.Open the URL on running the file.
 
 ## Web Application Navigation
 
 ## Homepage consists of:
 #### About Us
 #### Top Customer Analytics
-#### Lost Customer Analytics
+#### Bottom Customer Analytics
+#### CLV
 #### Popular Recommendation
 #### Item Recommendation
-#### CLV
-Click on the About Us tab to know more about the project.
-Click on Popular Recommendation:
-Select a user id from the drop down box
-Click on Recommend which displays a list of recommended items with respective Item IDs.
-Click on Item Recommendation:
-Select a user id from the drop down box
-Click on Recommend which displays a list of recommended items with respective Item IDs.
-Click on Top Customer Analytics and Bottom Customer Analytics :to view the analytics of customer.
+
+### See below to navigate to each page:
+
+Click on the https://ci360finalproject.herokuapp.com/ to know more about the project.
+
+Click on https://ci360finalproject.herokuapp.com/topcustomers to see out top customers ,total sales ,average sales and average reviews and average prices.
+
+Click on https://ci360finalproject.herokuapp.com/lostcustomer to see out bottom customers ,total sales ,average sales and average reviews and average prices.
+
+Click on https://ci360finalproject.herokuapp.com/CLV to see the Customer lifetime value,Churn Rate,Amount Spent,Proft and Average life of each customer ID.
+
+Under https://ci360finalproject.herokuapp.com/populatityrecommendation For determining the Popular Recommendations please use the User ID - 12347 or 12362 for testing the application.On entering any User ID the popular recommendations are same.The mentioned User IDs are for testing purpose.
+
+Under https://ci360finalproject.herokuapp.com/itemrecommendation For determining Item Recommendations please use the User ID 12362 and specific items will be recommended.
