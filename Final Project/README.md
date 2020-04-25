@@ -13,7 +13,8 @@ https://codelabs-preview.appspot.com/?file_id=1h8pehW_RPmp6G7lDBNjCtYGLaohVB494k
 
 ## Web App URL
 
-Localhost(http://127.0.0.1:5000/ )
+https://ci360finalproject.herokuapp.com/ - Updated Heroku Deployed Web App Link
+
 
 
 ## Dashboards
